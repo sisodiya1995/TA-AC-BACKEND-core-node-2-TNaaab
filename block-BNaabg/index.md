@@ -93,7 +93,7 @@ Handle all the error encountered during file system operation.
 
 ##### get a user(READ)
 
-In order to read a user, we need to pass a username whenever doing a request from postman. We pass the username through querystring by doing a GET request on `/users?username=xyz`
+In order to read a user, we need to pass a username whenever doing a request from postman. We pass the username through querystring by doing a GET request on `/users `
 
 - check for a route which is coming on above url using GET method
 - parse the url at the top and grab the pathname.

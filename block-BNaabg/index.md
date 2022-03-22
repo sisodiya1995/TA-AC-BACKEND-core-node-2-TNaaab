@@ -109,7 +109,7 @@ if (parsedUrl.pathname === "/users" && req.method === "GET") {
 
 ```js
 fs.readFile(file_path, (err, user) => {
-  // send the user through response
+  // send the user through responsecd 
 });
 ```
 
